@@ -1,13 +1,502 @@
-@import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+/*Actualizado css */
+*{
+    color: white;
+    font-size: 1.05em;
+}
 
-/*
-	Landed by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* A la imagen logo le ponemos un estilo */
+.img_logo{
+    width: 30%;
+    display: flex;
+    margin-left: 33%;
+    margin-bottom: 20px;
+}
 
-/* Reset */
+/* A la imagen principal le ponemos un estilo */
+.img_principal{
+    width: 30%;
+    display: flex;
+    margin-left: 33%;
+}
+
+.subCont {
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    background-color:mediumvioletred;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1em;
+}
+
+.submenu:hover{
+    background-color: rgb(91, 91, 91);
+    transition: 1s;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.servicio{
+    font-size:1.5em;
+    font-weight: bold;
+    background-color:mediumvioletred;
+    width: 118px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+
+.contenedor{
+    text-align: justify; /* Justificamos el texto */
+    padding: 3px;
+}
+
+.numCole:hover{
+    background-color: blueviolet;
+    padding: 1px;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.img_portafolio1{
+    width: 55%;
+}
+
+.img_portafolio2{
+    width: 55%;
+}
+
+.img_portafolio3{
+    width: 55%;
+}
+
+.img_portafolio4{
+    width: 55%;
+}
+
+.img_portafolio5{
+    width: 55%;
+}
+
+.img_portafolio6{
+    width: 55%;
+}
+
+.img_portafolio7{
+    width: 55%;
+}
+
+.img_portafolio8{
+    width: 55%;
+}
+
+.img_portafolio9{
+    width: 55%;
+}
+
+.img_portafolio10{
+    width: 55%;
+}
+
+.portafolio{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.img_portafolio1:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.textoDescrip{
+    font-size: 1em;
+    width: 55%;
+}
+
+.img_portafolio2:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio3:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio4:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio5:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio6:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio7:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio8:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio9:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.img_portafolio10:hover{
+    transition: 1s;
+    border: 5px solid violet;
+}
+
+.acerca{
+    margin-top: 5px;
+    background-color:mediumvioletred;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.titAcerca{
+    color:rgb(207, 85, 220);
+}
+
+.piePagina{
+    background-color: mediumvioletred;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction:row;
+    gap: 80px;
+    font-size: 20px;
+    width: 98vw;
+}
+
+.creadaPor{
+    position: relative;
+    top: 280px;
+    left: 165px;
+    font-size: 15px;
+}
+
+.creadaPor b {
+    color: wheat;
+}
+
+.creadaPor strong {
+    color:slategray;
+    text-shadow: 1px 1px 1px white;
+}
+
+.numColegiada{
+    background-color: blueviolet;
+    padding: 1px;
+    border-radius: 3px;
+    width: 350px;
+    font-weight: bold;
+}
+
+.rSanitario{
+    background-color: blueviolet;
+    padding: 1px;
+    border-radius: 3px;
+    width: 170px;
+    font-weight: bold;
+}
+
+.competencias{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.titComp{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.competencias a{
+    border-top: 2px solid white;
+    margin-top: 4px;
+    width: 80%;
+}
+.comp1 li, .comp2 li{
+    list-style: none;
+}
+
+.img_enlace1{
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.img_enlace1:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.img_enlace2{
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.img_enlace2:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.titEnlace{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.titContacto{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* Estilos para distintos dispositivos */
+
+@media screen and (max-width:815px) {
+
+/* A la imagen logo le ponemos un estilo */
+.img_logo{
+    width: 30%;
+}
+
+/* A la imagen principal le ponemos un estilo */
+.img_principal{
+    width: 30%;
+}
+
+.piePagina{
+    font-size: 12px;
+    height: 90vh;
+    width: 119vw;
+}
+
+.numColegiada{
+    width: 230px;
+}
+
+.rSanitario{
+    width: 150px;
+}
+
+
+}
+
+@media screen and (max-width:650px) {
+
+/* A la imagen logo le ponemos un estilo */
+.img_logo{
+    width: 30%;
+}
+
+/* A la imagen principal le ponemos un estilo */
+.img_principal{
+    width: 30%;
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.menu{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.piePagina{
+    font-size: 12px;
+    height: 90vh;
+    width: 119vw;
+}
+
+.numColegiada{
+    width: 230px;
+}
+
+.rSanitario{
+    width: 150px;
+}
+
+
+}
+
+@media screen and (max-width:527px) {
+    
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.menu{
+    width: 100%;
+    margin-right: 0px;
+}
+
+.piePagina{
+    font-size: 11px;
+    padding: 30px;
+}
+
+.numColegiada{
+    width: 230px;
+}
+
+.rSanitario{
+    width: 150px;
+}
+
+}
+
+@media screen and (max-width:495px) {
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.menu{
+    font-size: 14px;
+}
+    
+.titEnlace,.titContacto{
+    font-size: 1.3em;
+}
+
+.piePagina{
+    font-size: 11px;
+    padding: 8px;
+    width: 163vw;
+}
+
+.numColegiada{
+    width: 183px;
+}
+
+.rSanitario{
+    width: 93px;
+}
+
+}
+
+@media screen and (max-width:440px) {
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.menu{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+    
+.titEnlace,.titContacto{
+    font-size: 1.3em;
+}
+
+.piePagina{
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    height: 150vh;
+    width: 108vw;
+}
+
+.creadaPor{
+    position: relative;
+    top: 580px;
+    left: 165px;
+    font-size: 15px;
+}
+
+.numColegiada{
+    width: 183px;
+}
+
+.rSanitario{
+    width: 93px;
+}
+
+}
+
+@media screen and (max-width:391px) {
+
+    .portafolio{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;   
+    }
+    
+    .menu{
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+    }
+        
+    .titEnlace,.titContacto{
+        font-size: 1.3em;
+    }
+    
+    .piePagina{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        height: 150vh;
+        width: 128vw;
+    }
+    
+    .creadaPor{
+        position: relative;
+        top: 530px;
+        left: 165px;
+        font-size: 15px;
+    }
+    
+    .numColegiada{
+        width: 183px;
+    }
+    
+    .rSanitario{
+        width: 93px;
+    }
+    
+}
+
+/* Antiguo css */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
