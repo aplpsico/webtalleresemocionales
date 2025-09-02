@@ -4,6 +4,9 @@
     font-size: 1.05em;
 }
 
+header{
+position:sticky;
+}
 /* A la imagen logo le ponemos un estilo */
 .img_logo{
     width: 30%;
