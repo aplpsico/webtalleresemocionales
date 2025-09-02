@@ -12,6 +12,12 @@
     margin-bottom: 20px;
 }
 
+.img_centro{
+    width: 30%;
+    display:flex;
+    justify-content:left;
+}
+
 /* A la imagen principal le ponemos un estilo */
 .img_principal{
     width: 30%;
