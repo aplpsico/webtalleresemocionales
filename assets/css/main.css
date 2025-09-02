@@ -5,8 +5,10 @@
 }
 
 header{
+display:flex;
 position:sticky;
 }
+
 /* A la imagen logo le ponemos un estilo */
 .img_logo{
     width: 30%;
@@ -39,13 +41,12 @@ position:sticky;
     justify-content: center;
     background-color:mediumvioletred;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 15px;
-    margin-left: 10vw;
-    margin-right: 10vw;
     font-size: 1em;
+    width:50%
 }
-.menu p a {
+.submenu p a {
     text-decoration:none;
 }
 
