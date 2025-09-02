@@ -35,7 +35,6 @@ position:sticky;
 }
 
 .menu{
-    color:white;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -47,6 +46,11 @@ position:sticky;
     font-size: 1em;
     width:50%
 }
+
+.submenu{
+    color:white;
+}    
+
 .submenu p a {
     text-decoration:none;
 }
