@@ -45,6 +45,9 @@ position:sticky;
     margin-right: 10vw;
     font-size: 1em;
 }
+.menu p a {
+    text-decoration:none;
+}
 
 .submenu:hover{
     background-color: rgb(91, 91, 91);
