@@ -35,6 +35,7 @@ position:sticky;
 }
 
 .menu{
+    color:white;
     display: flex;
     flex-direction: row;
     gap: 10px;
