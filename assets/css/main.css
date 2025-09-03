@@ -61,6 +61,11 @@
     gap: 20px;
     justify-content:center;
 }
+.apartadosServicio{
+    background-color:#F79CF1;
+    border-radius:20px;
+    padding:20px;
+}
 
 .servicio{
     font-size:1.3em;
