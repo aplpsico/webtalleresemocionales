@@ -34,7 +34,6 @@
     flex-direction: row;
     gap: 10px;
     justify-content: center;
-    color:white;
     background-color:#F79CF1;
     border-radius: 5px;
     padding: 10px;
@@ -42,13 +41,15 @@
     font-size: 1em;
     width:50%
 }  
-
+.submenu p{
+  color:white;
+}
 .submenu p a {
     text-decoration:none;
 }
 
 .submenu:hover{
-    background-color: rgb(91, 91, 91);
+    background-color: blueviolet;
     transition: 1s;
     border-radius: 20px;
     padding: 5px;
