@@ -55,6 +55,11 @@
     padding: 5px;
 }
 
+.contentServicio{
+    display:flex;
+    flex-direction:row;
+}
+
 .servicio{
     font-size:1.3em;
     font-weight: bold;
@@ -297,6 +302,12 @@
 .img_principal{
     width: 30%;
 }
+    
+.contentServicio{
+    display:flex;
+    flex-direction:column;
+}
+
 
 .piePagina{
     font-size: 12px;
@@ -327,6 +338,11 @@
     width: 30%;
 }
 
+.contentServicio{
+    display:flex;
+    flex-direction:column;
+}
+    
 .portafolio{
     display: flex;
     flex-direction: column;
@@ -364,6 +380,12 @@
     gap: 20px;
     
 }
+
+.contentServicio{
+    display:flex;
+    flex-direction:column;
+}
+
 
 .menu{
     width: 100%;
@@ -418,6 +440,11 @@
 }
 
 @media screen and (max-width:440px) {
+
+.contentServicio{
+    display:flex;
+    flex-direction:column;
+}
 
 .portafolio{
     display: flex;
