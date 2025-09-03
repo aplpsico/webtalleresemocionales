@@ -38,17 +38,14 @@ position:sticky;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    color:white;
     background-color:#F79CF1;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
     font-size: 1em;
     width:50%
-}
-
-.submenu{
-    color:white;
-}    
+}  
 
 .submenu p a {
     text-decoration:none;
@@ -196,7 +193,7 @@ position:sticky;
 }
 
 .piePagina{
-    background-color: mediumvioletred;
+    background-color:#F79CF1;
     padding: 10px;
     margin-top: 40px;
     border-radius: 3px;
