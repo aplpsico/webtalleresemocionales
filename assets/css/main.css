@@ -62,16 +62,6 @@
     padding:20px;
 }
 
-.servicio{
-    font-size:1.3em;
-    font-weight: bold;
-    background-color:mediumvioletred;
-    width: 200px;
-    border-radius: 2px;
-    padding: 5px;
-}
-
-
 .contenedor{
     text-align: justify; /* Justificamos el texto */
     padding: 3px;
