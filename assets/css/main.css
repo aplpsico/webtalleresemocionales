@@ -5,18 +5,12 @@
 }
 
 /* A la imagen logo le ponemos un estilo */
-.img_logo{
-    width: 30%;
-    display: flex;
-    justify-content:center;
-    margin-left: 33%;
-    margin-bottom: 20px;
-}
 
 .img_centro{
     width: 20%;
     display:flex;
-    justify-content:left;
+    justify-content:center;
+    margin-bottom: 20px;
 }
 
 /* A la imagen principal le ponemos un estilo */
@@ -40,7 +34,6 @@
     padding: 10px;
     margin-bottom: 15px;
     font-size: 1em;
-    width:50%
 }  
 .submenu p{
   color:white;
@@ -303,7 +296,7 @@
 @media screen and (max-width:815px) {
 
 /* A la imagen logo le ponemos un estilo */
-.img_logo{
+.img_centro{
     width: 30%;
 }
 
@@ -338,7 +331,7 @@
 @media screen and (max-width:650px) {
 
 /* A la imagen logo le ponemos un estilo */
-.img_logo{
+.img_centro{
     width: 30%;
 }
 
@@ -383,7 +376,7 @@
 
 @media screen and (max-width:527px) {
 
-.img_logo{
+.img_centro{
     width: 35%;
     display: flex;
     justify-content:center;
@@ -459,7 +452,7 @@
 
 @media screen and (max-width:440px) {
 
-.img_logo{
+.img_centro{
     width: 35%;
     display: flex;
     justify-content:center;
